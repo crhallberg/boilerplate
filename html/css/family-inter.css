@@ -1,0 +1,32 @@
+@import "./inter/inter.css";
+
+:root {
+  --family-inter: "Inter";
+
+  /* https://rsms.me/inter/dynmetrics/ converted to px */
+
+  --letter-spacing--1: clamp(-0.085px, -0.002px + -0.006vw, -0.033px);
+  --letter-spacing-0:  clamp(-0.34px,  -0.078px + -0.021vw, -0.176px);
+  --letter-spacing-1:  clamp(-0.537px, -0.108px + -0.034vw, -0.269px);
+  --letter-spacing-2:  clamp(-0.84px,  -0.123px + -0.056vw, -0.392px);
+  --letter-spacing-3:  clamp(-1.244px, -0.094px + -0.09vw,  -0.525px);
+  --letter-spacing-4:  clamp(-1.759px, -0.06px  + -0.133vw, -0.697px);
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    --family-inter: "Inter var", "Inter";
+  }
+}
+
+@supports (font-variation-settings: "slnt" -10) {
+  :root {
+    --family-inter: "Inter var experimental", "Inter var", "Inter";
+  }
+
+  i,
+  em {
+    font-variation-settings: "slnt" -10;
+    font-style: oblique 10deg;
+  }
+}
