@@ -1,5 +1,10 @@
 # Boilerplate
 
+## TODO
+
+- [ ] Svelte
+- [ ] Astro
+
 ## HTML
 
 Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerplate/)_ by [Manuel Matuzović](https://twitter.com/mmatuzo) (2021 April 9).
