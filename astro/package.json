@@ -1,10 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "astro dev --host --port 3000",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "astro preview --host --port 3000",
     "astro": "astro"
   },
   "dependencies": {
@@ -12,7 +11,13 @@
     "@astrojs/mdx": "^0.11.4",
     "@astrojs/tailwind": "^2.0.2",
     "astro": "^1.4.3",
-    "sharp": ">=0.31.0",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "http-cache-semantics": "^4.1.0",
+    "image-size": "^1.0.2",
+    "mime": "^3.0.0",
+    "rollup": "^2.79.1",
+    "sharp": "^0.31.1"
   }
 }
