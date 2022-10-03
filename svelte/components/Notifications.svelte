@@ -1,5 +1,6 @@
 <script context="module">
   import { writable } from "svelte/store";
+  import { fly } from "svelte/transition";
 
   let notes = writable([]);
 
@@ -18,10 +19,6 @@
       });
     }, 3000);
   }
-</script>
-
-<script>
-  import { fly } from "svelte/transition";
 </script>
 
 <div class="notification-container">
