@@ -7,6 +7,10 @@
 
 ## HTML
 
+```bash
+pnpx degit crhallberg/boilerplate/html .
+```
+
 Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerplate/)_ by [Manuel Matuzović](https://twitter.com/mmatuzo) (2021 April 9).
 
 ### CSS
@@ -25,13 +29,22 @@ Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerpla
 
 ## Svelte
 
+```bash
+pnpx degit crhallberg/boilerplate/svelte .
+```
+
 Basic setup with TailwindCSS configured.
 
 ## Astro
 
+```bash
+pnpx degit crhallberg/boilerplate/astro .
+```
+
 "Just the basics" with cruft removed and TailwindCSS and MDX installed.
 
 ```bash
-pnpm create astra@latest
+# recreate with:
+pnpm create astro@latest
 pnpm astro add tailwind mdx
 ```
