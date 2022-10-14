@@ -41,15 +41,21 @@
   --rounded-lg: 0.5rem;
   --rounded-full: 9999px;
 
-  /* @link https://www.pollen.style/modules/layout#aspect-ratios */
+  /**
+   * @link https://www.pollen.style/modules/layout#aspect-ratios
+   * @link https://en.wikipedia.org/wiki/Aspect_ratio_(image)
+   */
 
-  --ratio-square: 1/1;
-  --ratio-portrait: 3/4;
-  --ratio-landscape: 4/3;
-  --ratio-tall: 2/3;
-  --ratio-wide: 3/2;
+  --ratio-silver: 2.414/1;
+  --ratio-cinematic: 2.35/1;
   --ratio-widescreen: 16/9;
   --ratio-golden: 1.618/1;
+  --ratio-wide: 3/2;
+  --ratio-landscape: 4/3;
+  --ratio-square: 1/1;
+  --ratio-portrait: 3/4;
+  --ratio-tall: 2/3;
+  --ratio-smartphone: 6/13;
 
   /**
    * Windows 11 shadows
