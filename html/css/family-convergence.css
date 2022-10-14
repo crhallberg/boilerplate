@@ -1,0 +1,9 @@
+:root {
+  --family-convergence: "Convergence";
+}
+
+@font-face {
+  font-family: "Convergence";
+  src: url("fonts/convergence/Convergence-Regular.ttf") format("truetype");
+  font-display: swap;
+}
