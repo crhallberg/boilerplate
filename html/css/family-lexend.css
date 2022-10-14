@@ -24,7 +24,7 @@
   font-family: "Lexend GX";
   src: url("lexend/gx/lexendgx.woff2") format("woff2"),
        url("lexend/gx/lexendgx.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 160 700;
   font-style: normal;
 }
 
@@ -32,48 +32,49 @@
 
 @font-face {
   font-family: "Lexend VF";
-  src: url("lexend/variable/Readexpro[HEXP,wght].ttf") format("ttf");
+  src: url("lexend/variable/Readexpro[HEXP,wght].ttf") format("truetype");
   font-weight: 160 700;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("lexend/ttf/ReadexPro-ExtraLight.ttf") format("ttf");
-  font-style: normal;
+  src: url("lexend/ttf/ReadexPro-ExtraLight.ttf") format("truetype");
   font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("lexend/ttf/ReadexPro-Light.ttf") format("ttf");
-  font-style: normal;
+  src: url("lexend/ttf/ReadexPro-Light.ttf") format("truetype");
   font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("lexend/ttf/ReadexPro-Regular.ttf") format("ttf");
-  font-style: normal;
+  src: url("lexend/ttf/ReadexPro-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("lexend/ttf/ReadexPro-Medium.ttf") format("ttf");
-  font-style: normal;
+  src: url("lexend/ttf/ReadexPro-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("lexend/ttf/ReadexPro-SemiBold.ttf") format("ttf");
-  font-style: normal;
+  src: url("lexend/ttf/ReadexPro-SemiBold.ttf") format("truetype");
   font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("lexend/ttf/ReadexPro-bold.ttf") format("ttf");
-  font-style: normal;
+  src: url("lexend/ttf/ReadexPro-bold.ttf") format("truetype");
   font-weight: 700;
+  font-style: normal;
 }
