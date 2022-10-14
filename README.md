@@ -17,9 +17,16 @@ Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerpla
 
 - [Modern Normalize](https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css)
 
+### Colors
+
+- [Download Colors from contrast app](https://crhallberg.com/colors)
+
 ### Fonts
 
+- [Bitter](https://github.com/solmatas/Bitter/tree/master/fonts)
 - [Inter](https://github.com/rsms/inter/releases/latest)
+- [Iosevka](https://github.com/be5invis/Iosevka/releases)
+    - Webfonts zip for Term SS07
 - [Lexend](https://github.com/ThomasJockin/readexpro/tree/master/fonts)
     - [gx/lexendgx.woff2](https://www.lexend.com/static/fonts/lexendgx.woff2)
     - [gx/lexendgx.ttf](https://www.lexend.com/static/fonts/lexendgx.ttf)
