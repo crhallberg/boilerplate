@@ -23,7 +23,8 @@ Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerpla
 
 ### Fonts
 
-- [Bitter](https://github.com/solmatas/Bitter/tree/master/fonts)
+- [Bitter](https://github.com/solmatas/BitterPro/tree/master/fonts)
+- [Convergence](https://github.com/google/fonts/blob/main/ofl/convergence/Convergence-Regular.ttf)
 - [Inter](https://github.com/rsms/inter/releases/latest)
 - [Iosevka](https://github.com/be5invis/Iosevka/releases)
     - Webfonts zip for Term SS07
