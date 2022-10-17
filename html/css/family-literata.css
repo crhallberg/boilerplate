@@ -1,0 +1,543 @@
+:root {
+  --family-literata: "Literata Text", var(--family-serif);
+  --family-literata-display: "Literata Display", var(--family-serif);
+  --family-literata-caption: "Literata Caption", var(--family-serif);
+  --family-literata-subhead: "Literata Subhead", var(--family-serif);
+
+  /* better numbers */
+  font-feature-settings: "onum" on;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    --family-literata: "Literata VF", "Literata Text", var(--family-serif);
+  }
+}
+
+/* Variable */
+
+@font-face {
+  font-family: "Literata VF";
+  src: url("../assets/fonts/literata/LiterataTT_variable-web/Literata[opsz,wght].woff2") format("woff2"), /* tech("variations") */
+       url("../assets/fonts/literata/LiterataTT_variable-web/LiterataTT_var.ttf") format("truetype"); /* tech("variations") */
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata VF";
+  src: url("../assets/fonts/literata/LiterataTT_variable-web/Literata-Italic[opsz,wght].woff2") format("woff2"), /* tech("variations") */
+       url("../assets/fonts/literata/LiterataTT_variable-web/LiterataTT_var-Italic.ttf") format("truetype"); /* tech("variations") */
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Static Text */
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextLight.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextLight.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextLight.eot");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextLightItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextLightItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextLightItalic.eot");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextRegular.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextRegular.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextRegular.eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextItalic.eot");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextMedium.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextMedium.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextMedium.eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextMediumItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextMediumItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextMediumItalic.eot");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextSemibold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextSemibold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextSemibold.eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextSemiboldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextSemiboldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextSemiboldItalic.eot");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextBold.eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextBoldItalic.eot");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextExtraBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextExtraBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextExtraBold.eot");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Text";
+  src: url("../assets/fonts/literata/LiterataTT-TextExtraBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-TextExtraBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-TextExtraBoldItalic.eot");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Static Display */
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayExtralight.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralight.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralight.eot");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayExtralightItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralightItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralightItalic.eot");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayExtralight.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralight.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralight.eot");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayExtralightItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralightItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtralightItalic.eot");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayLight.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayLight.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayLight.eot");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayLightItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayLightItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayLightItalic.eot");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayRegular.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayRegular.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayRegular.eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayItalic.eot");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayMedium.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayMedium.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayMedium.eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayMediumItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayMediumItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayMediumItalic.eot");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplaySemibold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplaySemibold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplaySemibold.eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplaySemiboldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplaySemiboldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplaySemiboldItalic.eot");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBold.eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBoldItalic.eot");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayExtraBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtraBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtraBold.eot");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayExtraBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtraBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayExtraBoldItalic.eot");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayBlack.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBlack.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBlack.eot");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Display";
+  src: url("../assets/fonts/literata/LiterataTT-DisplayBlackItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBlackItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-DisplayBlackItalic.eot");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Static Caption */
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionRegular.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionRegular.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionRegular.eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionItalic.eot");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionMedium.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionMedium.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionMedium.eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionMediumItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionMediumItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionMediumItalic.eot");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionSemibold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionSemibold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionSemibold.eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionSemiboldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionSemiboldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionSemiboldItalic.eot");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionBold.eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Caption";
+  src: url("../assets/fonts/literata/LiterataTT-CaptionBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-CaptionBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-CaptionBoldItalic.eot");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Static Subhead */
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadLight.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadLight.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadLight.eot");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadLightItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadLightItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadLightItalic.eot");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadRegular.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadRegular.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadRegular.eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadItalic.eot");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadMedium.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadMedium.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadMedium.eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadMediumItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadMediumItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadMediumItalic.eot");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadSemibold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadSemibold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadSemibold.eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadSemiboldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadSemiboldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadSemiboldItalic.eot");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadBold.eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadBoldItalic.eot");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadExtraBold.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadExtraBold.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadExtraBold.eot");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Literata Subhead";
+  src: url("../assets/fonts/literata/LiterataTT-SubheadExtraBoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/literata/LiterataTT-SubheadExtraBoldItalic.woff") format("woff"),
+       url("../assets/fonts/literata/LiterataTT-SubheadExtraBoldItalic.eot");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}

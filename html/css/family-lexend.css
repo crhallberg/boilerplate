@@ -1,10 +1,10 @@
 :root {
-  --family-lexend: "Lexend", "Lexend GX";
+  --family-lexend: "Lexend", var(--family-sans);
 }
 
 @supports (font-variation-settings: normal) {
   :root {
-    --family-lexend: "Lexend VF", "Lexend", "Lexend GX";
+    --family-lexend: "Lexend VF", "Lexend", var(--family-sans);
 
     --lexend-deca:  "HEXD" 0,   "LXND" 0;
     --lexend-exa:   "HEXD" 40,  "LXND" 40;
@@ -18,63 +18,55 @@
   }
 }
 
-/* Variable subset from the website */
-
-@font-face {
-  font-family: "Lexend GX";
-  src: url("fonts/lexend/gx/lexendgx.woff2") format("woff2") tech("variations"),
-       url("fonts/lexend/gx/lexendgx.ttf") format("truetype") tech("variations");
-  font-weight: 160 700;
-  font-style: normal;
-}
-
-/* Fonts from Github */
+/* Variable */
 
 @font-face {
   font-family: "Lexend VF";
-  src: url("fonts/lexend/variable/Readexpro[HEXP,wght].ttf") format("truetype");
+  src: url("../assets/fonts/lexend/variable/Readexpro[HEXP,wght].ttf") format("truetype");
   font-weight: 160 700;
   font-style: normal;
 }
 
+/* Static */
+
 @font-face {
   font-family: "Lexend";
-  src: url("fonts/lexend/ttf/ReadexPro-ExtraLight.ttf") format("truetype");
+  src: url("../assets/fonts/lexend/ttf/ReadexPro-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("fonts/lexend/ttf/ReadexPro-Light.ttf") format("truetype");
+  src: url("../assets/fonts/lexend/ttf/ReadexPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("fonts/lexend/ttf/ReadexPro-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/lexend/ttf/ReadexPro-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("fonts/lexend/ttf/ReadexPro-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/lexend/ttf/ReadexPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("fonts/lexend/ttf/ReadexPro-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/lexend/ttf/ReadexPro-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("fonts/lexend/ttf/ReadexPro-bold.ttf") format("truetype");
+  src: url("../assets/fonts/lexend/ttf/ReadexPro-bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }

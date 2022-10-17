@@ -1,7 +1,7 @@
-@import "fonts/inter/inter.css";
+@import "../assets/fonts/inter/inter.css";
 
 :root {
-  --family-inter: "Inter";
+  --family-inter: "Inter", var(--family-sans);
 
   /* https://rsms.me/inter/dynmetrics/ converted to px */
 
@@ -15,13 +15,13 @@
 
 @supports (font-variation-settings: normal) {
   :root {
-    --family-inter: "Inter var", "Inter";
+    --family-inter: "Inter var", "Inter", var(--family-sans);
   }
 }
 
 @supports (font-variation-settings: "slnt" -10) {
   :root {
-    --family-inter: "Inter var experimental", "Inter var", "Inter";
+    --family-inter: "Inter var experimental", "Inter var", "Inter", var(--family-sans);
   }
 
   i,

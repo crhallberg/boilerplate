@@ -1,5 +1,5 @@
-@import "fonts/iosevka/iosevka-term-ss07.css";
+@import "../assets/fonts/iosevka/iosevka-term-ss07.css";
 
 :root {
-    --family-iosevka: "Iosevka Term SS07 Web";
+    --family-iosevka: "Iosevka Term SS07 Web", var(--family-sans);
 }

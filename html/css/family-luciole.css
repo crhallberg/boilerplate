@@ -1,10 +1,10 @@
 :root {
-  --family-luciole: "Luciole";
+  --family-luciole: "Luciole", var(--family-sans);
 }
 
 @font-face {
   font-family: "Luciole";
-  src: url("fonts/luciole/Luciole-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/luciole/Luciole-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Luciole";
-  src: url("fonts/luciole/Luciole-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/luciole/Luciole-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Luciole";
-  src: url("fonts/luciole/Luciole-Regular-Italic.ttf") format("truetype");
+  src: url("../assets/fonts/luciole/Luciole-Regular-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "Luciole";
-  src: url("fonts/luciole/Luciole-Bold-Italic.ttf") format("truetype");
+  src: url("../assets/fonts/luciole/Luciole-Bold-Italic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;

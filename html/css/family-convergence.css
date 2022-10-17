@@ -1,9 +1,9 @@
 :root {
-  --family-convergence: "Convergence";
+  --family-convergence: "Convergence", var(--family-sans);
 }
 
 @font-face {
   font-family: "Convergence";
-  src: url("fonts/convergence/Convergence-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/convergence/Convergence-Regular.ttf") format("truetype");
   font-display: swap;
 }
