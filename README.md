@@ -23,16 +23,19 @@ Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerpla
 
 ### Fonts
 
-- [Bitter](https://github.com/solmatas/BitterPro/tree/master/fonts)
-- [Convergence](https://github.com/google/fonts/blob/main/ofl/convergence/Convergence-Regular.ttf)
-- [Inter](https://github.com/rsms/inter/releases/latest)
-- [Iosevka](https://github.com/be5invis/Iosevka/releases)
-    - Webfonts zip for Term SS07
-- [Lexend](https://github.com/ThomasJockin/readexpro/tree/master/fonts)
-    - [gx/lexendgx.woff2](https://www.lexend.com/static/fonts/lexendgx.woff2)
-    - [gx/lexendgx.ttf](https://www.lexend.com/static/fonts/lexendgx.ttf)
-- [Luciole](https://www.luciole-vision.com/luciole-en.html#download)
-- [Manrope](https://github.com/sharanda/manrope/tree/master/fonts)
+Download into `assets/fonts`.
+
+- [Convergence](https://github.com/google/fonts/blob/main/ofl/convergence/Convergence-Regular.ttf) (tiny fun sans)
+- [Crimson](https://github.com/Fonthausen/CrimsonPro/tree/master/fonts) (old-fashioned serif)
+- [Inter](https://github.com/rsms/inter/releases/latest) (legible sans)
+- [Iosevka](https://github.com/be5invis/Iosevka/releases) (monospace, Term SS07)
+- [Lexend](https://github.com/ThomasJockin/readexpro/tree/master/fonts) (reading sans)
+- [Literata](https://www.type-together.com/literata-font) (legible serif, free download)
+- [Luciole](https://www.luciole-vision.com/luciole-en.html#download) (dyslexia sans)
+- [Zilla Slab](https://github.com/mozilla/zilla-slab/releases) (modern serif)
+
+### Icons
+
 - [Remix Icons](https://github.com/Remix-Design/RemixIcon/tree/master/fonts)
 
 ## Svelte
