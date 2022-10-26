@@ -1,10 +1,5 @@
 # Boilerplate
 
-## TODO
-
-- [ ] Svelte
-- [ ] Astro
-
 ## HTML
 
 ```bash
