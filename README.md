@@ -20,7 +20,13 @@ Source: _[My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerpla
 
 ### Fonts
 
-Download into `assets/fonts`. Also consider [FontSource](https://fontsource.org/)
+Download into `assets/fonts`. Also consider [FontSource](https://fontsource.org/).
+
+Once a font is selected, this line can be added to the `<head>` to prevent content shift and font flashes.
+
+```html
+<link rel="preload" href="Literata.woff2" as="font" type="font/woff2" crossorigin>
+```
 
 #### Sans Serif
 
