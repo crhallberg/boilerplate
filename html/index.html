@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 <head>
   <!--
-  ct.css Optimal Head Order*
+  ct.css Optimal Head Order
   ---
   <meta charset|http-equiv|viewport />
   <title>
@@ -28,12 +28,12 @@
   <script type="module">
     if (window.matchMedia('(prefers-color-scheme)').media !== 'not all') {
       const isDark = !window.matchMedia('(prefers-color-scheme: light)').matches;
-      document.body.dataset.colorScheme = isDark ? "dark" : "light";
+      document.body.dataset.theme = isDark ? "dark" : "light";
     }
   </script>
   -->
 
-  <link rel="stylesheet" href="/css/styles.css" />
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
   <!-- <link rel="stylesheet" href="/css/print.css" media="print" /> -->
 
   <style></style>
@@ -52,15 +52,18 @@
   <meta name="theme-color" content="#FF00FF" />
   -->
 
-  <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
-  <link rel="manifest" href="/manifest.webmanifest">
+  <!--
+  <link rel="icon" href="/favicon-32x.ico" sizes="any" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon-180x.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  -->
 </head>
 
 <body>
   <!-- Content -->
-  <script src="/assets/js/xy-polyfill.js" nomodule></script>
-  <script src="/assets/js/script.js" type="module"></script>
+
+  <!-- <script src="js/xy-polyfill.js" nomodule></script> -->
+  <!-- <script src="js/script.js" type="module"></script> -->
 </body>
 </html>
